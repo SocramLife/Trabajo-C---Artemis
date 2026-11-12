@@ -14,7 +14,7 @@
 #define GAMMA_MIN     5.5       /* angulo minimo seguro (grados)*/
 #define GAMMA_MAX     7.0       /* angulo maximo seguro (grados)*/
 
-/*registro que representa la capsul*/
+/*registro que representa la capsula*/
 typedef struct {
     double masa;       /*kg*/
     double velocidad;  /*m/s*/
