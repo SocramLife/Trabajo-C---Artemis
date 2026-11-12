@@ -17,11 +17,14 @@ FASE 1 - Reingreso: elegis el angulo de entrada.
   - Menor a 5.5 grados: la capsula rebota en la atmosfera y se pierde.
   - Mayor a 7.0 grados: la desaceleracion es excesiva para la tripulacion.
   - Entre 5.5 y 7.0: reingreso seguro. Cuanto mas cerca de 6.25, mas puntos.
+
 FASE 2 - Frenado: el escudo termico frena la capsula hasta 25 m/s.
+
 FASE 3 - Paracaidas: elegis a que altura abrirlos.
   - Por debajo de 1.5 km abren tarde y el impacto es peligroso.
   - Por encima de 3.5 km el viento te aleja del buque de rescate.
   - La altura ideal es 2.5 km.
+
 FASE 4 - Amerizaje: la estructura soporta hasta 5.0 veces su peso.
 
 Puntaje maximo por mision: 100 puntos.
