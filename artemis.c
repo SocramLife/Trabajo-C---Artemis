@@ -1,6 +1,6 @@
 #include "artemis.h"
 
-/* ===== Energia ===== */
+/* Energia */
 
 double energia_cinetica(double masa, double velocidad)
 {
@@ -17,7 +17,7 @@ double energia_mecanica(Capsula c)
     return energia_cinetica(c.masa, c.velocidad) + energia_potencial(c.masa, c.altura);
 }
 
-/* ===== Preguntas del escenario ====== */
+/* Preguntas del escenario */
 
 /* a) El trabajo del rozamiento es la energia mecanica que se perdio:
       W = Em final - Em inicial (da negativo porque la energia disminuye) */
