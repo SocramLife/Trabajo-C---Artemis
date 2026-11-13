@@ -10,7 +10,7 @@
 #define H_PARACAIDAS  2500.0    /* altura al abrir paracaidas (m)*/
 #define V_IMPACTO     8.0       /* velocidad al tocar el agua (m/s)*/
 #define HUNDIMIENTO   1.50      /* cuanto se hunde en el agua(m)*/
-#define T_FRENADO     400.0     /* duracion del frenado fuerte (m) */
+#define T_FRENADO     400.0     /* duracion del frenado fuerte (m)*/
 #define GAMMA_MIN     5.5       /* angulo minimo seguro (grados)*/
 #define GAMMA_MAX     7.0       /* angulo maximo seguro (grados)*/
 
