@@ -44,6 +44,10 @@ Se pueden jugar hasta 10 misiones por partida, Cada mision exitosa suma hasta 10
 existe un modo analisis
 Que permite ingresar datos propios y calcula las cuatro preguntas del escenario: (a) trabajo del rozamiento atmosferico, (b) desaceleracion media, (c) fuerza de impacto en el agua y (d) evaluacion del angulo de reingreso.
 
-COMPILACION
+INSTRUCCIONES DE COMPILADO Y EJECUCION
 
 Descargar el repositorio en la computadora, abrir la terminal MSYS2 UCRT64 localizarla en la carpeta donde se decargo el repositorio mediante el comando cd "Direccion de la carpeta", y ejecutar el comando "Make". Se crearan los archivos .o necesarios para el compilado junto al .exe donde se abrira la terminal y se podra ejecutar el juego.
+
+USO DE LA IA
+
+La inteligencia artificial nos ayudo tanto en la parte de sintaxis y en el entendimiento de los problemas fisicos, al no tener el suficiente conocimiento con el lenguaje de c, tuvimos varios problemas como con el copilado y el MSYS2, la modularicion y la division de codigo y header, ademas de el tratamiento del lenguaje de c de los array de caracteres para las validacion de entrada.
