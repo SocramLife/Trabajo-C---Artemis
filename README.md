@@ -30,6 +30,7 @@ FASE 4 - Amerizaje: la estructura soporta hasta 5.0 veces su peso.
 Puntaje maximo por mision: 100 puntos.
 
 FUNCIONAMIENTO
+
 El jugador comanda la tripulacion Orion en una capsula de 10.400 kg, que vuelve de la Luna y entra a la atmosfera a 11.000 m/s y 120 km de altura, y debe llevarla a salvo hasta el Oceano Pacifico, calculando el angulo de ingreso y la apertura del paracaidas.
 
 las misiones se dividen en fases
