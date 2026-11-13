@@ -28,3 +28,17 @@ FASE 3 - Paracaidas: elegis a que altura abrirlos.
 FASE 4 - Amerizaje: la estructura soporta hasta 5.0 veces su peso.
 
 Puntaje maximo por mision: 100 puntos.
+
+FUNCIONAMIENTO
+El jugador comanda la tripulacion Orion en una capsula de 10.400 kg, que vuelve de la Luna y entra a la atmosfera a 11.000 m/s y 120 km de altura, y debe llevarla a salvo hasta el Oceano Pacifico, calculando el angulo de ingreso y la apertura del paracaidas.
+
+las misiones se dividen en fases
+1. El reingreso: donde el jugador elige el angulo de entrada
+2. El frenado aerodinamico: el escudo termico frena la capsula hasta 25 m/s. El programa calcula la desaceleracion (en m/s^2 y en g) y la energia disipada.
+3. Apertura del paracaidas: el jugador elige a que altura abrirlo
+4. Amerizaje:4. se calcula la fuerza que ejerce el agua. Donde si supera 5 veces el peso de la capsula, la estructura fallara.
+
+Se pueden jugar hasta 10 misiones por partida, Cada mision exitosa suma hasta 100 puntos: hasta 50 por la precision del angulo (ideal: 6,25 grados) y hasta 50 por la altura de apertura de los paracaidas (ideal: 2,5 km,). Al final de cada mision vas a ver tu puntaje y siempre que quieras podras tambien ver el reporte general de desempeño.
+
+existe un modo analisis
+Que permite ingresar datos propios y calcula las cuatro preguntas del escenario: (a) trabajo del rozamiento atmosferico, (b) desaceleracion media, (c) fuerza de impacto en el agua y (d) evaluacion del angulo de reingreso.
