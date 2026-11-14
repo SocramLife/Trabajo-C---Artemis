@@ -15,4 +15,10 @@ char leer_si_no(const char *mensaje);
 /* Muestra un mensaje de error con formato uniforme. */
 void mostrar_error(const char *mensaje);
 
+/* Muestra un aviso y espera a que el usuario presione Enter. */
+void esperar_enter(void);
+
+/* Borra la pantalla de la terminal y deja el cursor arriba a la izquierda. */
+void limpiar_pantalla(void);
+
 #endif
