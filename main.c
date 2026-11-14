@@ -21,6 +21,7 @@ int main(void)
     int opcion;
 
     do {
+        limpiar_pantalla();
         mostrar_menu();
         opcion = leer_entero("Elija una opcion", 1, 5);
 
@@ -46,6 +47,9 @@ int main(void)
                 mostrar_reporte(historial, cantidad);
                 printf("\nfin de la simulacion\n");
                 break;
+        }
+        if (opcion != 5) {
+            esperar_enter();
         }
     } while (opcion != 5);
 
