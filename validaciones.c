@@ -91,6 +91,22 @@ void mostrar_error(const char *mensaje)
     printf("  [ERROR] %s\n", mensaje);
 }
 
+void esperar_enter(void)
+{
+    char buffer[TAM_BUFFER];
+
+    printf("\nPresione Enter para volver al menu...");
+    leer_linea(buffer, TAM_BUFFER);   /* lo escrito se descarta */
+}
+
+void limpiar_pantalla(void)
+{
+    /* Secuencias ANSI: \033[2J borra la pantalla, \033[H lleva el cursor al inicio */
+    printf("\033[2J\033[H");
+    fflush(stdout);
+}
+
+
 double leer_double(const char *mensaje, double minimo, double maximo)
 {
     char buffer[TAM_BUFFER];
